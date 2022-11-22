@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Project
+from portfolio.models import Project
 
 def portfolio(request):
     projects = Project.objects.all() 
