@@ -16,8 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from core import views as core_views
-from portfolio import views as portfolio_views
+from mysite.core import views as core_views
+from mysite.portfolio import views as portfolio_views
 
 from django.conf import settings
 
